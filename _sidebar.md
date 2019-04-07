@@ -1,7 +1,5 @@
 <!-- docs/_sidebar.md -->
 
-<!-- _navbar.md -->
-
 * Getting started
 
   * [PAGE1](project1/README.md)
