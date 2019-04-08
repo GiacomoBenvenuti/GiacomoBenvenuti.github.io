@@ -1,5 +1,5 @@
 # First thing to say
-# Banana
-# Pizza
+## Banana
+## Pizza
 
-# Second thing
+## Second thing
