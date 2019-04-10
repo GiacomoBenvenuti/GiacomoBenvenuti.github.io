@@ -2,8 +2,8 @@
 
 * Imaging
 
-  * [Decoding](project1/README.md)
-  * [Retino projection](/guide.md)
+  * [Decoding](decoding.md)
+  * [Retino projection](Retino.md)
 
 * Matlab Toolbox
   * [Visualization](configuration.md)
