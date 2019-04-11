@@ -1,9 +1,10 @@
 <!-- docs/_sidebar.md -->
 
-* Imaging
+* Projects
 
+  * [Retinotopy Model](Retino.md)
   * [Decoding](decoding.md)
-  * [Retino projection](Retino.md)
+
 
 * Matlab Toolbox
   * [Visualization](configuration.md)
