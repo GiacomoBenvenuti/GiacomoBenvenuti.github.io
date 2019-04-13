@@ -38,24 +38,21 @@
       name: 'giacomox',
       repo: 'giacomox/giacomox.github.io',
       loadSidebar: true,
-        subMaxLevel: 2,
-      alias: {
-     '/.*/_sidebar.md': '/_sidebar.md'
-      },
+
+    //  alias: {
+  //   '/.*/_sidebar.md': '/_sidebar.md'
+  //    },
       loadNavbar: true,
       autoHeader: true,
       mergeNavbar: true,
-      maxLevel: 4,
+      subMaxLevel: 2,
+      maxLevel: 3,
 
-
-
-    search: 'auto', // default
+   search: 'auto', // default
 
     search : [
-      '/',            // => /README.md
-      '/guide',       // => /guide.md
-      '/get-started', // => /get-started.md
-      '/project1/',      // => /zh-cn/README.md
+      '/',
+                // => /README.md
     ],
 
     // complete configuration parameters
