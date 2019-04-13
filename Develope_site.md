@@ -3,6 +3,13 @@ This site was create using [docsify](https://docsify.js.org/#/). Layout can be m
 ### Clone repository
 Click the icon in the top-right of the page to see the repository
 ### Install docsify stuff
+It is recommended to install `docsify-cli` globally, which helps initializing and previewing the website locally.
+
+```bash
+npm i docsify-cli -g
+```
+
+### Initialization
 If you want to write the documentation in the `./docs` subdirectory, you can use the `init` command.
 
 ```bash
