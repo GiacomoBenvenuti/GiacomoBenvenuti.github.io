@@ -1,8 +1,11 @@
 <!-- docs/_sidebar.md -->
 
-* Projects
+* Optical Imaging
 
-  * [Retinotopy Model](Retino.md)
+  * [Retino. Resp. Simulation](Retino.md)
+     * [Retinotopic Model](https://github.com/giacomox/RetinoMapModel)
+     * [Fit vasculature](https://github.com/giacomox/BruteForceRegistration/blob/master/README.md)
+
   * [Decoding](decoding.md)
 
 
