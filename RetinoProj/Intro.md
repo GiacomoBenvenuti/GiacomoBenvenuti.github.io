@@ -17,4 +17,28 @@
 </p>
 
 ## Simulation of retinotopic responses in V1
-I have developed some tool to (1)
+
+1. Calibrate retinotopic model with real retinotopy
+```Matlab
+% RX, RY, : retinotopic coordinates
+param = FitRetino(RX,RY)
+```
+2. Find correspondence btw retinotopy green image and experiment green image (we use vasculature as reference).
+```Matlab
+% I,J : vasculature images
+tform = SelectFeatures(I,J);
+```
+3.
+```Matlab
+[Xq, Yq ]= meshgrid( 1:size(RX,1) , 1:size(RX,2) );
+[Uq Vq] = RetinoModel_INV(Xq,Yq,param)
+```
+4.
+```Matlab
+UU = imwarp(Uq,tform,'OutputView', imref2d(size(I)));
+VV = imwarp(Vq,tform,'OutputView', imref2d(size(I)));
+```
+5. Project visual stimulus to retinotopic map and compare with real response
+```
+[x,y] = Stimulus(UU,VV,param)
+```
