@@ -39,9 +39,9 @@
       repo: 'giacomox/giacomox.github.io',
       loadSidebar: true,
 
-    //  alias: {
-  //   '/.*/_sidebar.md': '/_sidebar.md'
-  //    },
+      //alias: {
+     //'/.*/_sidebar.md': '/_sidebar.md'
+    //  },
       loadNavbar: true,
       autoHeader: true,
       mergeNavbar: true,
@@ -49,10 +49,11 @@
       maxLevel: 3,
 
    search: 'auto', // default
-    basePath: '/',
+
     search : [
       '/',
-      '/RetinoProj'          // => /README.md
+      '/*/',
+      '/RetinoProj',        // => /README.md
     ],
 
     // complete configuration parameters
@@ -60,7 +61,7 @@
       maxAge: 86400000, // Expiration time, the default one day
       paths: 'auto', // or 'auto'
       placeholder: 'Type to search',
-
+      basePath: '/',
       // Localization
       placeholder: {
         '/RetinoProj/': 'Search in the project',
