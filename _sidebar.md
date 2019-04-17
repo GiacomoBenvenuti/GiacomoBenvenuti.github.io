@@ -1,7 +1,7 @@
 <!-- docs/_sidebar.md -->
 
 * Optical Imaging
-  * [Retinotopy](/RetinoProj/intro.md)
+  * [Retinotopy](/RetinoProj/README.md)
   * [Decoding](decoding.md)
 
 * Matlab Toolbox
