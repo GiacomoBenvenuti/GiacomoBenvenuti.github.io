@@ -21,7 +21,7 @@ tform = SelectFeatures(I,J);
 ```
 
 <p align="center">
-<img src="./figures/selection.png" width="70%">
+<img src="./figures/selection.png" width="90%">
 </p>
 
 
