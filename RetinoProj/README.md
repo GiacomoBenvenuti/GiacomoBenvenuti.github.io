@@ -1,7 +1,7 @@
 
 # Retinotopy Model
 
-## Background
+## Primary visual cortex
 
 
 <p align="center">
@@ -20,3 +20,18 @@
 <p style="font-size:80%;" title="legend">
  <b>Fig2 Example of retinotopic projection to primary visual cortex (V1).</b> <br>
  </p>
+
+
+ <p align="center">
+ <img src="./figures/Retinotopy.png" width="40%">
+ </p>
+
+ <p style="font-size:80%;" title="legend">
+  <b>Fig3 Retinotopy in macaque brain.</b> <br>
+  </p>
+
+## Superior culliculus
+
+
+## References
+(1) Blasdel, Gary, and Darlene Campbell. "Functional retinotopy of monkey visual cortex." Journal of Neuroscience 21.20 (2001): 8286-8301.
