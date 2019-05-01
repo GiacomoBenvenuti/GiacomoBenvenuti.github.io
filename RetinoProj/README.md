@@ -1,5 +1,6 @@
 
 # Retinotopy Model
+This model can be applied to different cortical visual areas like the primary visual cortex as well as some sub-cortical visual areas like the superior culliculus and LGN.
 
 ## Primary visual cortex
 Most of V1 cortex is buried within the calcarine sulcus (*Fig1*). However, in macaques and marmosets the retinotopic area representing the central area of the visual field (~until 5dva of eccentricity)is exposed and can be optically imaged (*Fig2*).
@@ -38,6 +39,10 @@ Most of V1 cortex is buried within the calcarine sulcus (*Fig1*). However, in ma
 
 ## Superior culliculus
 The retinotopic model we describe can be also used for the superior culliculus.
+
+<p align="center">
+<img src="./figures/SupCol.jpg" width="70%">
+</p>
 
 ## References
 (1) Blasdel, Gary, and Darlene Campbell. "Functional retinotopy of monkey visual cortex." Journal of Neuroscience 21.20 (2001): 8286-8301.
