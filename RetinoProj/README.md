@@ -2,7 +2,7 @@
 # Retinotopy Model
 
 ## Primary visual cortex
-Most of V1 cortex is buried within the calcarine sulcus (*Fig1*). However, in macaques the retinotopic area representing the central area of the visual field (~until 5dva of eccentricity)is exposed and can be optically imaged (*Fig2*).
+Most of V1 cortex is buried within the calcarine sulcus (*Fig1*). However, in macaques and marmosets the retinotopic area representing the central area of the visual field (~until 5dva of eccentricity)is exposed and can be optically imaged (*Fig2*).
 
 <p align="center">
 <img src="./figures/retino3D.jpg" width="70%">

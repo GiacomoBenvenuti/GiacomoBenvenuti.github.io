@@ -6,7 +6,7 @@ Here we show how to simulate retinotopic responses for specific visual stimuli o
 #### Calibrate retinotopic model with real retinotopy
 
 ```Matlab
-% RX, RY, : retinotopic coordinates
+% RX, RY, : retinotopic cartesian coordinates
 param = FitRetino(RX,RY)
 ```
 
@@ -15,7 +15,7 @@ param = FitRetino(RX,RY)
 </p>
 
 ## 2. Match vasculature
- Find correspondence btw retinotopy's experiment vasculature and the vasculature of the experiment you want to simulate.
+ Find correspondence btw retinotopy's experiment vasculature and the vasculature of the experiment you want to simulate ()[vasculature registration software](https://github.com/giacomox/BruteForceRegistration/blob/master/README.md)).
 
 ```Matlab
 % I,J : vasculature images
