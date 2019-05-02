@@ -40,7 +40,7 @@ tform = SelectFeatures(I,J);
 
 
 ## 4. Get ROI retinotopy
- Use the vasculature coordinates to generate the retinotopy of the experiment you want to simulate
+ Use the vasculature coordinates to generate the retinotopy of the experiment you want to simulate (i.e. crop the retinotopic map in the same way you cropped the vasculature image to match the two experiments)
 
 ```Matlab
 UU = imwarp(Uq,tform,'OutputView', imref2d(size(I)));
