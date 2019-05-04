@@ -98,4 +98,4 @@ TO DO
 
 3. Palmer, C. R., Chen, Y. & Seidemann, E. Uniform spatial spread of population activity in primate parafoveal V1. J. Neurophysiol. 107, 1857–67 (2012).
 
-4. Benvenuti, G. et al. Scale-Invariant Visual Capabilities Explained by Topographic Representations of Luminance and Texture in Primate V1. Neuron 1–9 (2018). doi:10.1016/J.NEURON.2018.10.020
+4. Benvenuti, G. et al. [Scale-Invariant Visual Capabilities Explained by Topographic Representations of Luminance and Texture in Primate V1.](https://www.ncbi.nlm.nih.gov/pubmed/30392796) Neuron 1–9 (2018).
