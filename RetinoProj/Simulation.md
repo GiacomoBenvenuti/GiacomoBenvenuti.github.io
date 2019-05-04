@@ -54,7 +54,7 @@ VV = imwarp(Vq,tform,'OutputView', imref2d(size(I)));
 ## 5. Simulate response
  Project visual stimulus to retinotopic map and compare with real response
 
- You can use the same function you used to generate the visual stimulus in the visual space to generate the projection to  the cortical ROI.
+ You can use the same function you used to generate the visual stimulus in the visual space to generate the projection to  the cortical ROI<sup>4</sup> .
 
 ```Matalb
 [x,y] = Gabor2D(UU,VV,param_stimulus)
@@ -64,12 +64,27 @@ VV = imwarp(Vq,tform,'OutputView', imref2d(size(I)));
 <img src="./figures/M15D20141209R1.png" width="70%">
 </p>
 
-In some cases (e.g. if using Tempo to display the stimuli) you have to take in account the (i) stimulus position (the Matlab fun generates the stimulus image but the position is changed through the stimulation software) and (ii) the fact that the Y axis of the stimulus is inverted.
+In some cases (e.g. if using another software to display the stimuli and set their position on screen) you have to take in account the (i) stimulus position (the Matlab fun generates the stimulus image but the position is changed through the stimulation software) and (ii) the fact that the Y axis of the stimulus is inverted.
+
+```Matlab
+%% Set stimulus position
+% Cx and Cy are the cartesian coordinates of the stimulus' center
+Cx = 1; Cy = -1;
+% UU and VV are the visual coordinates corresponding to the cortical
+% coordinates we want to use to generate the retinotopic response
+% simulation (the ROI).
+UU = UU - Cx ;
+VV = VV - Cy ;
+```
+
+```Matlab
+%% Correct the stimulus
+```
 
 ## 6. Cortical point image
 Retinotopic projections must be "blurred" by convolving with a 2D gaussian kernel with adequate parameters, to simulate the effect of the CPI.
 
-Since the receptive fields of sensory neurons extend over space (e.g. the average full-width-at-half-height (FWHH) of the receptive field of V1 neurons at 2-5 dva of eccentricity is ~0.6 dva)<sup>1,2</sup>, the receptive fields of laterally-displaced neurons largely overlap, and each point in the visual field is represented by a widespread population of neurons. This area, which is referred to as the *cortical point image (CPI)*, in V1 spans a region with full-width-at-half-height of ~2 mm for spiking activity and ~4 mm for sub-threshold activity<sup> 3</sup>. The predicted retinotopic response to a visual stimulus can therefore be obtained by projecting the stimulus to the retinotopic map and then convolving the result with the sub-threshold CPI (e.g. 2D Gaussian filter, corresponding to a "blurring" effect). The effect of the CPI on the amplitude of the predicted response is negligible at low SFs, but it becomes dominant as the spatial frequency of the stimulus increases.
+Since the receptive fields of sensory neurons extend over space (e.g. the average full-width-at-half-height (FWHH) of the receptive field of V1 neurons at 2-5 dva of eccentricity is ~0.6 dva)<sup>1,2</sup>, the receptive fields of laterally-displaced neurons largely overlap, and each point in the visual field is represented by a widespread population of neurons. This area, which is referred to as the *cortical point image (CPI)*, in V1 spans a region with full-width-at-half-height of ~2 mm for spiking activity and ~4 mm for sub-threshold activity<sup> 3</sup>. The predicted retinotopic response to a visual stimulus can therefore be obtained by projecting the stimulus to the retinotopic map and then convolving the result with the sub-threshold CPI<sup>4</sup> (e.g. 2D Gaussian filter, corresponding to a "blurring" effect). The effect of the CPI on the amplitude of the predicted response is negligible at low SFs, but it becomes dominant as the spatial frequency of the stimulus increases.
 
 ```
 TO DO
@@ -82,3 +97,5 @@ TO DO
 2. Hubel, D. H. & Wiesel, T. N. Uniformity of monkey striate cortex: a parallel relationship between field size, scatter, and magnification factor. J. Comp. Neurol. 158, 295–305 (1974).
 
 3. Palmer, C. R., Chen, Y. & Seidemann, E. Uniform spatial spread of population activity in primate parafoveal V1. J. Neurophysiol. 107, 1857–67 (2012).
+
+4. Benvenuti, G. et al. Scale-Invariant Visual Capabilities Explained by Topographic Representations of Luminance and Texture in Primate V1. Neuron 1–9 (2018). doi:10.1016/J.NEURON.2018.10.020
