@@ -1,7 +1,7 @@
 
 * Retinotopy
-  - [Background](/RetinoProj/README.md)
-  - [SImulate responses](/RetinoProj/Simulation.md)
+  - [Background](/README.md)
+  - [Simulate responses](/Simulation.md)
 
 * Repositories
   - [Retinotopic Model](https://github.com/giacomox/RetinoMapModel/blob/master/README.md)

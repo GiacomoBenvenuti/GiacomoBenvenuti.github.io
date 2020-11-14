@@ -1,11 +1,11 @@
-<p align="center">
-<img src="./figures/coming.jpg" width="100%">
-</p>
 
-### At the moment the only project available is the [Retinotopic map simulation](/RetinoProj/README.md)
+<img src="./figures/Site_header.png" width="100%">
 
-* Please use the sidebar to navigate the website and be aware that this is just a hub connecting different repositories on GitHub.
+I am a Research Associate in the laboratory of [Eyal Seidemann](https://cns.utexas.edu/directory/item/409-seidemann-eyal?Itemid=349) at the [Center for Perceptual Systems](https://liberalarts.utexas.edu/cps/) (University of Texas). I earned my PhD in Neuroscience at the French National Centre for Scientific Research (CNRS) of Marseille ([INT](http://www.int.univ-amu.fr/)) (see Bio).
 
-* Here you will find links to specific projects (with more documentation) and some general documentation on how to combine the different tools to develop specific projects.
+I am interested in the neural mechanisms underlying visual cognition and in the development of visual prosthetics to restore vision in blind patients.
 
-* To visit my GitHub click on the logo on the right corner of the screen
+I am currently investigating the role of functional maps in the cortex in integrating and encoding visual information ([learn more](/pages/research.md)). <br>
+<br>
+<br>
+<br>

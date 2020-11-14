@@ -1,0 +1,9 @@
+
+## Papers
+||||
+|--|--|--|
+| [An Open Resource for Non-human Primate Optogenetics](https://www.sciencedirect.com/science/article/abs/pii/S0896627320307510) <br> S Tremblay, L Acker, A Afraz, DL Albaugh, H Amita, AR Andrei, ... | Neuron | 2020 |
+|  [Anticipatory responses along motion trajectories in awake monkey area V1](https://www.biorxiv.org/content/10.1101/2020.03.26.010017v1.abstract) <br> G Benvenuti, S Chemla, A Boonman, L Perrinet, GS Masson, F Chavane| bioRxiv   | 2020  |
+| [Scale-invariant visual capabilities explained by topographic representations of luminance and texture in primate V1](https://www.sciencedirect.com/science/article/pii/S0896627318309085) <br> G Benvenuti, Y Chen, C Ramakrishnan, K Deisseroth, WS Geisler, E Seidemann| Neuron | 2018 |
+| [Spontaneous cortical activity is transiently poised close to criticality](https://scholar.google.com/scholar?oi=bibs&cluster=11499157203286280681&btnI=1&hl=it) <br> G Hahn, A Ponce-Alvarez, C Monier, G Benvenuti, A Kumar, F Chavane, G Deco, Y Frégnac | PLoS computational biology | 2017|
+| [Testing the odds of inherent vs. observed overdispersion in neural spike counts](https://scholar.google.com/scholar?oi=bibs&cluster=15212588543476382503&btnI=1&hl=it)<br> W Taouali, G Benvenuti, P Wallisch, F Chavane, LU Perrinet |Journal of Neurophysiology | 2016|
