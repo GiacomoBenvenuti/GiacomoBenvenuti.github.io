@@ -12,14 +12,16 @@
   <!--   <link rel="stylesheet" href="//unpkg.com/docsify/lib/themes/vue.css">  -->
 
 
-  <!-- Theme -->
-  <link rel="stylesheet" href="/theme-simple.css">
-
+  <!-- Theme
+  <link rel="stylesheet" href="/theme-simple.css"> -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/docsify-themeable@0/dist/css/theme-simple.css">
   <!-- Custom theme styles -->
   <style>
     :root {
     --base-font-size: 14px;
     --theme-color   : purple;
+    --docsifytabs-border-color: #ededed;
+    --docsifytabs-tab-highlight-color: purple;
 
     }
 
@@ -44,20 +46,21 @@
      //'/.*/_sidebar.md': '/_sidebar.md'
     //  },
       loadNavbar: true,
-      autoHeader: true,
+      autoHeader: false,
       mergeNavbar: true,
       subMaxLevel: 2,
       maxLevel: 3,
 
-   search: 'auto', // default
+      search: 'auto', // default
 
   //  search : [
-  //    '/',
+    //  '/',
   //    '/*/',
-  //    '/RetinoProj/README.md',        // => /README.md
-  //  ],
+  //    '/RetinoProj/README.md',=> /README.md
+//    ],
 
     // complete configuration parameters
+
     search: {
       maxAge: 86400000, // Expiration time, the default one day
       paths: 'auto', // or 'auto'
@@ -78,13 +81,23 @@
       },
 
       // Headline depth, 1 - 6
-      depth: 1,
+      depth: 3,
 
       hideOtherSidebarContent: false, // whether or not to hide other sidebar content
 
       // To avoid search index collision
       // between multiple websites under the same domain
       namespace: 'website-1',
+
+
+      tabs: {
+         persist    : true,      // default
+         sync       : true,      // default
+         theme      : 'classic', // default
+         tabComments: true,      // default
+         tabHeadings: true       // default
+       }
+
 
   }
 
@@ -99,7 +112,10 @@
 
   <script src="//unpkg.com/docsify/lib/plugins/emoji.min.js"></script>
 
+   <script src="https://cdn.jsdelivr.net/npm/docsify-themeable@0/dist/js/docsify-themeable.min.js"></script>
 
+   <!-- docsify-tabs (latest v1.x.x) -->
+<script src="https://cdn.jsdelivr.net/npm/docsify-tabs@1"></script>
 
   <script>
     if (typeof navigator.serviceWorker !== 'undefined') {
