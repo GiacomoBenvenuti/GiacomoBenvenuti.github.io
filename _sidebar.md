@@ -4,7 +4,7 @@
 * [Research](/pages/research.md)
 * [Publications](/pages/publications/README.md)
 * [Curriculum Vitae](/pages/cv.md)
-* [Coding](/pages/coding/README.md)
+* [Resources](/pages/coding/README.md)
 * [Contacts](/pages/contacts.md)
 
 ---
