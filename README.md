@@ -11,6 +11,6 @@ I am interested in the neural mechanisms underlying visual cognition and in the 
 
 I am currently investigating the role of functional maps in the cortex in integrating and encoding visual information.
 
-<!-- #### **Bio** -->
+
 
 <!-- tabs:end -->
