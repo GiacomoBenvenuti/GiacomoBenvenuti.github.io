@@ -1,10 +1,10 @@
 <!-- docs/_sidebar.md -->
 
 * [Home](/)
-* [Research](/pages/research.md)
+<!--* [Research](/pages/research.md) -->
 * [Publications](/pages/publications/README.md)
 * [Curriculum Vitae](/pages/cv.md)
-* [Resources](/pages/coding/README.md)
+<!-- * [Resources](/pages/coding/README.md) -->
 * [Contacts](/pages/contacts.md)
 
 ---
